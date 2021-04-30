@@ -49,7 +49,7 @@ nav {
   right: 0;
   color: white;
   margin-top: 100px;
-  
+
   margin-left: 100px;
 }
 .text h1 {
@@ -163,17 +163,18 @@ progress {
   text-align: justify;
 }
 
-#services {
+#Dance {
   padding: 100px 50px;
 }
 
-.services-row {
+.Dance-row {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  color: tomato;
 }
-.services-box {
+.Dance-box {
   flex-basis: 25%;
   text-align: center;
   box-shadow: 2px 3px 5px grey;
@@ -181,7 +182,7 @@ progress {
   margin-top: 20px;
 }
 
-.services-row :hover {
+.Dance-row :hover {
   background: tomato;
   color: white;
   transition: 0.4s;
@@ -199,45 +200,43 @@ progress {
   flex-wrap: wrap;
   /* display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
-
 }
 
 .projects-box {
   flex-basis: 40%;
   text-align: center;
- 
+
   /* box-shadow: 9px 7px 10px rgb(165, 164, 164); */
-  box-shadow: #ccc 1px 1px 20px;
+  box-shadow: #5e3a33bf 1px 1px 10px;
 
   height: 270px;
   width: 500px;
   border-radius: 25px;
 }
-@media screen and (max-width:800px)
-{
-  .projects-box{
+@media screen and (max-width: 800px) {
+  .projects-box {
     display: flex;
     flex-direction: column;
     flex-basis: 55%;
     height: 200px;
     padding: 0;
     margin: 0;
-
   }
-  
 }
-  
-@media screen and (max-width:600px)
-{
-  .projects-row{
-   
+
+@media screen and (max-width: 600px) {
+  .projects-row {
     padding: 0;
     margin: 0;
-
   }
-  
 }
-  
+
+.projectbtn{
+  background-color: tomato;
+  width: 6rem;
+  height: 2rem;
+ 
+}
 
 
 .Wonders {
@@ -245,13 +244,14 @@ progress {
   width: 100%;
   background-size: cover;
   margin: 15px;
-  background-position:center center ;
+  background-position: center center;
 }
+
 .portfolio {
   background-image: url("img/portfolio\ img.webp");
   margin: 15px;
   background-size: cover;
-  background-position:center center ;
+  background-position: center center;
   background-attachment: inherit;
 }
 
@@ -261,24 +261,29 @@ progress {
   margin: 15px;
   background-attachment: inherit;
   background-size: cover;
-  background-position:center center ;
+  background-position: center center;
 }
 .grid {
   background-image: url("img/Res.jpg");
   width: 100%;
-  margin: 15pxs;
+  margin: 15px;
   background-size: cover;
-  background-position:center center ;
+  background-position: center center;
 }
-.projects-box h2{
-  background-color:white;
+
+.Calculator {
+  background-image: url("img/calc.png");
+  width: 100%;
+  margin: 15px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects-box h2 {
+  background-color: white;
   color: tomato;
 }
-.projects-box h2 :hover
-{
-  background-color: tomato;
-  color: white;
-}
+
 #contact {
   padding: 100px 50px;
   background: linear-gradient(160deg, tomato 42%, white 0%);
